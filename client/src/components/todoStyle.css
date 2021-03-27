@@ -1,0 +1,16 @@
+.todo-item-paper {
+  margin: 1rem 0;
+}
+
+.todo-item-paper.completed {
+  filter: invert(1);
+}
+
+.todo-anchor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 85%;
+  height: 100%;
+  cursor: pointer;
+}
